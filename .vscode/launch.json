@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Learner",
+            "request": "launch",
+            "mainClass": "Learner",
+            "projectName": "C++_programs_ac8e4b44"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",

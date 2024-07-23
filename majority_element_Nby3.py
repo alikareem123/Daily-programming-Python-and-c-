@@ -17,17 +17,17 @@ def majority_elementby3(a: List[int]) -> List[int]:
         else:
             cnt1 -= 1
             cnt2 -= 1
-    
+    ans = []
     cnt1 = cnt2 = 0
     for i in range(n):
         if a[i] == el1: cnt1 += 1
         if a[i] == el2: cnt2 += 1
     
     min3 = int(n / 3) + 1
-    ans = []
+    
     if cnt1 > min3: ans.append(el1)
     if cnt2 > min3: ans.append(el2)
-    
+
     return ans
 
 if __name__ == "__main__":
